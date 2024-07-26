@@ -1,0 +1,125 @@
+@media screen and (max-width: 900px) {
+    body {
+      width: 800px;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      a-size: 0.8rem;
+    }
+  }
+  
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .material-symbols-outlined {
+    vertical-align:sub;
+    font-size: 1.3rem;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 350,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  main {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    position: absolute;
+    display: block;  
+    left: 250px;
+    padding: 2rem 2rem 2rem 3rem;
+  }
+  
+  section {
+    margin-bottom: 5rem;
+  }
+  
+  header {
+    text-align: justify;
+    font-size: 1.8rem;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+  }
+  
+  p {
+    margin-left: 1.3rem;
+    text-overflow: clip;
+  }
+  
+  .header-top {
+    margin-top: 1rem;
+  }
+  
+  .tests {
+    background-color: #EEEFFF;
+    display: inline-block;
+    padding: 0;
+    margin-left: -10px;
+  }
+  
+  .test-list {
+    display: inline-block;
+    position:relative;
+    right: -100px;
+  }
+  
+  .notes {
+    background-color: #e9fc80;
+    line-height: -1rem;
+  }
+  
+  ul > .list-style-none {
+    list-style-type: none;
+  }
+  
+  
+  
+  /* Navbar */
+  
+  #navbar {
+    position: fixed;
+    border-right: 1px solid rgb(54, 54, 54);
+    overflow-y: hidden;
+    display: inline-block;
+    height: 98%;
+  }
+  
+  #navbar ul li a{
+    display: block;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgb(54, 54, 54);
+    margin-left: -2.4rem;
+    padding-left: 3rem;
+  }
+  
+  #navbar>ul>li:last-child{
+    border-bottom: 1px solid rgb(54, 54, 54);
+    margin-left: -2.4rem;
+    padding-left: 2.4rem;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+  }
+  
+  #navbar > header {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #4b4b4b;
+  }
+  
+  a:hover {
+    color: #0a0a0a;
+  }
